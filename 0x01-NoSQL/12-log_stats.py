@@ -21,7 +21,7 @@ if __name__ == '__main__':
     doc = logs.count_documents({"method": "GET", "path": "/status"})
 
     print(
-        f"{count}\n"
+        f"{count} logs\n"
         "Methods:\n"
         f"\t method GET: {get}\n"
         f"\t method POST: {post}\n"
