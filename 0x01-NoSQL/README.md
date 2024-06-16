@@ -1,4 +1,4 @@
-# 0x01. NoSQL(MongoDB)
+# 0x01. NoSQL (MongoDB)
 
 ![](https://cdn-media-1.freecodecamp.org/images/1*Ta4qktHtO--RMUpnR08mBg.jpeg)
 
