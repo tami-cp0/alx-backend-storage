@@ -3,7 +3,7 @@
 from typing import List
 
 
-def update_topics(mongo_collection, name: str, topics: List[int]) -> None:
+def update_topics(mongo_collection, name, topics):
     """
     Updates the query object gotten using name
     and sets a topic
