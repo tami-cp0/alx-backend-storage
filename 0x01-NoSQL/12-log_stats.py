@@ -12,13 +12,13 @@ if __name__ == '__main__':
     # number of logs
     count = logs.count_documents({})
 
-    get = len([log for log in logs.find({"method": "GET"})])
-    post = len([log for log in logs.find({"method": "POST"})])
-    put = len([log for log in logs.find({"method": "PUT"})])
-    patch = len([log for log in logs.find({"method": "PATCH"})])
-    delete = len([log for log in logs.find({"method": "DELETE"})])
+    get = logs.count_documents({"method": "GET"})
+    post = logs.count_documents({"method": "POST"})
+    put = logs.count_documents({"method": "PUT"})
+    patch = logs.count_documents({"method": "PATCH"})
+    delete = logs.count_documents({"method": "DELETE"})
 
-    doc = len([log for log in logs.find({"method": "GET", "path": "/status"})])
+    doc = logs.count_documents({"method": "GET", "path": "/status"})
 
     print(
         f"{count}\n"
