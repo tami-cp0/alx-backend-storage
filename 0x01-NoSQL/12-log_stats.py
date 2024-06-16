@@ -23,10 +23,10 @@ if __name__ == '__main__':
     print(
         f"{count} logs\n"
         "Methods:\n"
-        f"\t method GET: {get}\n"
-        f"\t method POST: {post}\n"
-        f"\t method PUT: {put}\n"
-        f"\t method PATCH: {patch}\n"
-        f"\t method DELETE: {delete}\n"
+        f"\tmethod GET: {get}\n"
+        f"\tmethod POST: {post}\n"
+        f"\tmethod PUT: {put}\n"
+        f"\tmethod PATCH: {patch}\n"
+        f"\tmethod DELETE: {delete}\n"
         f"{doc} status check"
     )
